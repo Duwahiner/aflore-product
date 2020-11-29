@@ -1,0 +1,36 @@
+{
+  "name": "aflore-product",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Busqueda de productos por el ID.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": "duwahiner moreno cuesta",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@rebass/forms": "^4.0.6",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-svg": "^11.0.40",
+    "rebass": "^4.0.7"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
