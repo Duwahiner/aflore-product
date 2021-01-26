@@ -10,7 +10,7 @@ Busqueda de productos por el ID.
 
 ## Instalación del proyecto local:
     npm install
-    yarn add
+    yarn install
 
 ## Una vez haya instaldo las dependencias del proyecto, ejecúte:
     npm run dev
